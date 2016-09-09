@@ -1,9 +1,8 @@
 # HibernetBlock
-An anti DDoS tool that tries to neutralize proxies denial of service
+An anti DDoS tool that tries to neutralize proxies denial of service.
 
 <h2>Requirements</h2>
-<pre>pip3 install bs4</pre>
-<pre>apt-get install ipset</pre>
+<pre>apt-get install ipset python3 python3-pip && pip3 install bs4</pre>
 
 It only works on linux. It's the ideal on a webserver.
 
