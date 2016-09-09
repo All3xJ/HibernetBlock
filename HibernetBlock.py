@@ -172,7 +172,7 @@ def loop():
 				print("Current IPs in blacklist: %s" % (len(open("blacklist.txt").readlines())))
 			except: # se si verifica un errore printa questa scritta:
 				print("An error occurred, skipping to the next website.")
-			if choice2 == "y": # se si è scelto di bloccare i tor-exit-nodes esegue il procedimento
+			if choice2 == "y": # se si e' scelto di bloccare i tor-exit-nodes esegue il procedimento
 				url = "https://torstatus.rueckgr.at/index.php?SR=Uptime&SO=Desc" # imposto url sito exit nodes
 				try:
 					print ("\nDownloading from torstatus.rueckgr.at in progress...")
