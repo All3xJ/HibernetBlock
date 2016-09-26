@@ -134,7 +134,6 @@ def proxyget():
 def inforgeget(): # funzione dedicata solo al sito inforge.net che ha un meccanismo diverso
 	req = urllib.request.Request("https://www.inforge.net/xi/forums/liste-proxy.1118/")
 	req.add_header("User-Agent", random.choice(useragents))
-	print ("\nIGNORE THIS WARNING:")
 	soup = BeautifulSoup(urllib.request.urlopen(req, timeout = 10)) # trasformazione in "zuppa" del sourcecode
 	print ("\nDownloading from inforge.net in progress...")
 	base = "https://www.inforge.net/xi/"
