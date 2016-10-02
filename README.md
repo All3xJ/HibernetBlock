@@ -7,6 +7,6 @@ An anti DDoS tool that tries to neutralize proxies denial of service.
 It only works on linux. It's the ideal on a webserver.
 
 <h2>Usage</h2>
-<pre>python3 HibernetBlockV1.x.py</pre>
+<pre>python3 HibernetBlockV2.x.py</pre>
 
 <h1>ENJOY!</h1>
